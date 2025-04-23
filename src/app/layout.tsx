@@ -2,6 +2,20 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
+import {
+  ClerkProvider,
+  SignInButton,
+  SignUpButton,
+  SignedIn,
+  SignedOut,
+  UserButton,
+} from '@clerk/nextjs'
+
+// import FooterComponent from "@/components/footer/FooterComponent";
+import FooterComponent from './../components/footer/FooterComponent';
+
+
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -23,12 +37,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    <ClerkProvider>
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+
+        className={`${geistSans.variable} ${geistMono.variable} antialiased h-screen flex flex-col `}
+
       >
-        {children}
+    
+       
+    {children}
+    <FooterComponent />
       </body>
+    
     </html>
+    </ClerkProvider>
   );
 }
