@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "./HeroComponent.style.css"
+
 
 export default function HeroComponent() {
   return (
