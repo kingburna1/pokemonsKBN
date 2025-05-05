@@ -3,13 +3,11 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 import {
-  ClerkProvider,
-
-} from '@clerk/nextjs'
+  ClerkProvider,} from '@clerk/nextjs'
 
 // import FooterComponent from "@/components/footer/FooterComponent";
 import FooterComponent from './../components/footer/FooterComponent';
-import { Metadata } from './layout';
+// import { Metadata } from './layout';
 
 
 
