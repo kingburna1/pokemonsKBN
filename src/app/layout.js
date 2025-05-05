@@ -3,7 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 import {
-  ClerkProvider,} from '@clerk/nextjs'
+  ClerkProvider,} 
+  from '@clerk/nextjs'
 
 // import FooterComponent from "@/components/footer/FooterComponent";
 import FooterComponent from './../components/footer/FooterComponent';
@@ -21,7 +22,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const Metadata = {
+export const metadata = {
   title: "Pokémon Explorer - Web App",
   description:
     "A dynamic Pokémon web application for browsing, searching, and learning about Pokémon characters, types, stats, and evolutions using the PokéAPI. Built with Next.js and styled for responsive performance.",
