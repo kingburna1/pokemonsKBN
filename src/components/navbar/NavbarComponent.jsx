@@ -31,7 +31,7 @@ export default function NavbarComponent() {
         </div>
 
          <li className="cursor-pointer hover:text-gray-400 hidden md:block lg:block"> <Link href="/"> Home</Link> </li>
-         <li className="cursor-pointer hover:text-gray-400">About</li>
+         <li className="cursor-pointer hover:text-gray-400  hidden md:block lg:block">About</li>
         <li className="cursor-pointer hover:text-gray-400 hidden md:block lg:block"> <Link href="/contact">Contact</Link></li>
         <SignedOut>
               <SignInButton />
