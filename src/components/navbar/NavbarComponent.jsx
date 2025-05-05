@@ -5,7 +5,6 @@ import { FaHeart } from "react-icons/fa";
 import { FaCartArrowDown } from "react-icons/fa";
 import { useStoreFavorite } from './../../store/favorite.store';
   import {
-    ClerkProvider,
     SignInButton,
     SignUpButton,
     SignedIn,

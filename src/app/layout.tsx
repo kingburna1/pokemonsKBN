@@ -4,11 +4,7 @@ import "./globals.css";
 
 import {
   ClerkProvider,
-  SignInButton,
-  SignUpButton,
-  SignedIn,
-  SignedOut,
-  UserButton,
+
 } from '@clerk/nextjs'
 
 // import FooterComponent from "@/components/footer/FooterComponent";
