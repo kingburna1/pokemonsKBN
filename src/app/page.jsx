@@ -39,9 +39,9 @@ const Page = () => {
            <HeroComponent/>
           
                 <div className="">
-              <div className="flex justify-center items-center ">
+              <div className=" flex  flex-wrap justify-center items-center ">
               <input value={searchTem} onChange={(e) =>setSearchTem(e.target.value)} type="search" placeholder="search for a poke man" className="m-5 bg-gray-200 py-3 px-5 rounded-lg outline-none " />
-              <div className="flex gap-3" >
+              <div className="flex flex-wrap gap-3" >
                 <button onClick={() => setSelectedType(null) } className='bg-blue-500 cursor-pointer text-white px-4 py-2 rounded-2xl  hover:bg-gray-600 transition duration-300' >All</button>
               {Types.map((item,index) => 
                 <button key={index} onClick={() => setSelectedType (item.name)} className='bg-blue-500 cursor-pointer text-white px-4 py-2 rounded-2xl  hover:bg-gray-600 focus:bg-gray-600 transition duration-300'> {item.name} </button>
