@@ -6,7 +6,6 @@ import NavbarComponent from './../../../components/navbar/NavbarComponent';
 import FooterComponent from './../../../components/footer/FooterComponent';
 import HeroComponent from './../../../components/hero/HeroComponent';
 import AddcontComponent from '../../../components/addcont/AddcontComponent';
-import { Image } from 'next/image';
 
 export async function generateMetadata({ params }) {
   const { id } = params;
