@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function HeroComponent() {
   return (
-    <div className="flex  flex-wrap justify-between items-center h-fit bg-gray-100 p-4 px-20 gap-5 pt-15 text-black-900">
+    <div className="flex flex-wrap md:flex lg:flex md:justify-between justify-between items-center h-fit bg-gray-100 p-4 px-20 gap-5 pt-15 text-black-900">
         <div className="flex flex-col justify-center gap-4">
         <h1 className=" flex flex-wrap font-bold text-3xl text-black-900"> Welcome to pokemon home of lies and lack of home training destruction and desobidience never you tell us what to do</h1>
         <p> We are the best in what we do</p>

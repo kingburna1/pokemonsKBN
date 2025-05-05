@@ -30,9 +30,9 @@ export default function NavbarComponent() {
            <div className="bg-red-700 rounded-full w-4 h-4 absolute bottom-0 right-1 ">{FavoriteSize}</div>
         </div>
 
-         <li className="cursor-pointer hover:text-gray-400"> <Link href="/"> Home</Link> </li>
+         <li className="cursor-pointer hover:text-gray-400 hidden md:block lg:block"> <Link href="/"> Home</Link> </li>
          <li className="cursor-pointer hover:text-gray-400">About</li>
-        <li className="cursor-pointer hover:text-gray-400"> <Link href="/contact">Contact</Link></li>
+        <li className="cursor-pointer hover:text-gray-400 hidden md:block lg:block"> <Link href="/contact">Contact</Link></li>
         <SignedOut>
               <SignInButton />
               <SignUpButton />
